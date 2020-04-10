@@ -135,7 +135,7 @@ if(isset($_POST["form"]))
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<meta name="insight-app-sec-validation" content="266349a2-e661-4ed1-890f-44901ad798a9">
 <!--<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Architects+Daughter">-->
 <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
@@ -184,7 +184,7 @@ if(isset($_POST["form"]))
     <form action="<?php echo($_SERVER["SCRIPT_NAME"]);?>" method="POST">
 
         <p><label for="login">Login:</label><br />
-        <input type="text" id="login" name="login" size="20" autocomplete="off"></p> 
+        <input type="text" id="login" name="login" size="20" autocomplete="off"></p>
 
         <p><label for="password">Password:</label><br />
         <input type="password" id="password" name="password" size="20" autocomplete="off"></p>
